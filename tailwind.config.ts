@@ -13,7 +13,19 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        display: ["Fraunces", "ui-serif", "serif"],
+      },
       colors: {
+        brand: {
+          cream: "#F7F0E1",
+          forest: "#2F5207",
+          moss: "#476A32",
+          sage: "#96BF7D",
+          orange: "#F98909",
+          taupe: "#B1ABA0",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
